@@ -7,7 +7,7 @@ const delay = ms => {
   // Твой код
     return new Promise((resolve) => {
         setTimeout(() => {
-logger(ms)
+          resolve(ms);
         }, ms)
     })
 };
